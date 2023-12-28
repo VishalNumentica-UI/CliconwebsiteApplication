@@ -1,0 +1,201 @@
+.adPopup {
+  background-color: #191C1F;
+  color: white;
+}
+
+.blank_line {
+  border-left: 0.1rem solid #FFF;
+}
+
+.ad_alignText {
+  display: inline-block;
+  background-color: #F3DE6D;
+  padding: 0.2em;
+  color: #191C1F;
+  transform: rotate(-4deg);
+}
+
+.adOffer--bold {
+  display: inline-flex;
+  font-size: 1.4em;
+  color: #EBC80C;
+}
+
+.computerAccessories--offer1 {
+  background-color: #F7E99E;
+}
+
+.computerAccessories--offer2 {
+  background-color: #124261;
+}
+
+.offerBanner {
+  width: 15rem;
+}
+
+.ProductItems {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.exploreProduct {
+  border: 0.1rem solid #E4E7E9;
+}
+
+.timer {
+  background-color: #F3DE6D;
+  margin: auto 0;
+}
+
+.df {
+  padding-left: unset;
+}
+
+.productSlider {
+  background-color: #F2F4F5;
+  border-radius: 0.5rem;
+}
+
+.offerProduct1 {
+  background-color: #191C1F;
+  border-radius: 0.5rem;
+}
+
+.offerProduct2 {
+  background-color: #F2F4F5;
+  border-radius: 0.5rem;
+}
+
+.circle {
+  background-color: #2DA5F3;
+  width: 5em;
+  right: 2rem;
+  top: 1rem;
+  line-height: 5em;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.text-color {
+  color: #2DA5F3;
+}
+
+.layer2--Content span {
+  color: #2DA5F3;
+}
+
+.offerTag {
+  background-color: #EFD33D;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 0.3rem;
+  padding: 0.2rem;
+  top: 0.4rem;
+  left: 3rem;
+}
+
+.offerProduct1--content p {
+  color: #EBC80C;
+}
+.offerProduct1--content h3 {
+  color: #F2F4F5;
+}
+
+.socialMediaLinks {
+  background-color: #1B6392;
+  color: white;
+}
+
+.lang_Curr select {
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.newsLetter {
+  background-color: #1B6392;
+}
+
+.footer {
+  background-color: #191C1F;
+  color: #FFF;
+}
+
+form {
+  background-color: white;
+  display: flex;
+  padding: 2px;
+  border-radius: 0.2em;
+}
+
+input[type=search] {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  width: 100%;
+  font-size: 14px;
+  color: #191C1F;
+  border: 1px solid transparent;
+  border-radius: inherit;
+}
+
+button[type=submit] {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.btn--cart {
+  background-color: #FA8232;
+  color: #FFF;
+}
+
+.btn--add_cart {
+  background-color: #FFE7D6;
+}
+
+.discountTab {
+  background-color: #F3DE6D;
+}
+
+.advertisement__offerProduct1 {
+  background-color: #F2F4F5;
+}
+
+.advertisement__offerProduct2 {
+  background-color: #191C1F;
+}
+
+.specialOffer {
+  background-color: #FFE7D6;
+}
+
+.latestNews {
+  background-color: #F2F4F5;
+}
+
+.shopProducts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.signInTab {
+  margin: auto;
+  width: 30%;
+}
+
+@media screen and (max-width: 992px) {
+  .ProductItems {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}/*# sourceMappingURL=homePage.css.map */

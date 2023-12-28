@@ -1,0 +1,60 @@
+.EachProductCategory{
+    border:0.1rem solid #E4E7E9;
+    max-width:10rem;
+}
+
+.offerPercentage{
+    top:0.3rem;
+    background-color: #EFD33D;
+    width: fit-content;
+    padding:0.2rem;
+    border-radius: 0.1rem;
+    font-size: 0.75rem;
+}
+
+.trendingProduct{
+    background:#EE5858;
+    padding:0.2rem;
+    top:0.2rem;
+    width: fit-content;
+    border-radius: 0.1rem;
+    font-size: 0.75rem;
+}
+
+.eachProduct{
+    border: 0.1rem solid #E4E7E9;
+    max-width: 15.5rem;
+    max-height: 18.5rem;
+}
+
+.productCardImage{
+  max-width: 14.625rem;
+  max-height: 10.75rem;
+}
+.text h5,p{
+    font-size: 14px;
+}
+
+.text p{
+    color: #5F6C72;
+}
+.featureTab{
+    padding:0.5rem;
+    border:0.01rem solid #E4E7E9;
+}
+
+.productDetail{
+    border:0.01rem solid #E4E7E9;
+}
+
+.productDetailImage{
+   max-width: 5rem;
+}
+
+.latestNews__newspages{
+    max-width: 23rem;
+}
+
+.latestNews__newspages{
+    background-color: #FFF;;
+}
