@@ -1,10 +1,9 @@
-
 import { Container, Navbar, Nav } from "react-bootstrap";
 import BrowseProductNavigator from "./BrowseProductNavigator";
 function NavigationTab() {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg">
+      <Navbar collapseOnSelect expand="xl">
         <Container>
           <Navbar.Brand href="#home">Featured Products</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

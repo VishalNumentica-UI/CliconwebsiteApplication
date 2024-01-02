@@ -1,4 +1,3 @@
-
 import { Container, Image } from "react-bootstrap";
 import {
   compareIcon,

@@ -36,7 +36,7 @@ export function Hero() {
                 <ButtonCreation color={"orange"} />
               </div>
               <div className="offerProduct1--img position-relative p-2">
-                <div class="offerTag position-absolute">
+                <div className="offerTag position-absolute">
                   <span>29% OFF</span>
                 </div>
                 <Image src={poco} alt="" fluid />

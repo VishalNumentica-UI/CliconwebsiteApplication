@@ -1,11 +1,12 @@
-
 import { Image, Container, Row, Col } from "react-bootstrap";
 import { gadgets } from "../../resources/images";
 import NavigationTab from "../../CommonFunctionalities/NavigationTab";
 import { ProductCard } from "../../CommonFunctionalities/CardCreation";
 import { alexa } from "../../resources/images";
+import { useEffect, useState } from "react";
 
 export function FeatureProduct() {
+  const [resolution, setResolution] = useState(0);
   const productDetail = [
     {
       image: alexa,
@@ -28,7 +29,7 @@ export function FeatureProduct() {
     {
       image: alexa,
       productDescription:
-        "Amazon Basics High-Speed HDMI Cable Gbps,(18 Gbps, 4K/6...",
+        "Amazon Basics High-Speed HDMI Cable (18 Gbps, 4K/6...",
       productPrice: "$250",
     },
     {
@@ -56,6 +57,29 @@ export function FeatureProduct() {
       productPrice: "$250",
     },
   ];
+
+  const isMobile: boolean = resolution >= 320 && resolution <= 480;
+  const isTablet: boolean = resolution >= 768 && resolution <= 1024;
+  const initial = isMobile
+    ? productDetail.slice(0, 4).map((e) => {
+        return e;
+      })
+    : isTablet
+    ? productDetail.slice(0, 6).map((e) => {
+        return e;
+      })
+    : productDetail.slice(0, 8).map((e) => {
+        return e;
+      });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setResolution(window.outerWidth);
+      console.log(window.outerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+  });
+
   return (
     <div>
       <Container className="mt-3">
@@ -67,10 +91,10 @@ export function FeatureProduct() {
               <span>For all ellectronics products</span>
               <p>
                 Offers ends in:{" "}
-                <span class="buttonEnabler">ENDS OF CHRISTMAS</span>
+                <span className="buttonEnabler">ENDS OF CHRISTMAS</span>
               </p>
-              <button class="btn">
-                SHOP NOW &nbsp;<i class="fa-solid fa-arrow-right"></i>
+              <button className="btn">
+                SHOP NOW &nbsp;<i className="fa-solid fa-arrow-right"></i>
               </button>
               <div>
                 <Image src={gadgets} alt="" fluid />
@@ -81,7 +105,7 @@ export function FeatureProduct() {
           <Col xl={9} lg={8} className="df">
             <NavigationTab />
             <div className="ProductItems gap-1">
-              {productDetail.map((item) => {
+              {initial.map((item) => {
                 return <ProductCard props={item} />;
               })}
             </div>

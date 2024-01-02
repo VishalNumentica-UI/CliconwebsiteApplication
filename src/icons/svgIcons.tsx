@@ -13,7 +13,7 @@ export { default as reddit } from "../assets/reddit.svg";
 
 //News Section Icons
 
-export {default as contact} from "../assets/contact.svg";
+export { default as contact } from "../assets/contact.svg";
 export { default as calendar } from "../assets/calendar.svg";
 export { default as messenger } from "../assets/messenger.svg";
 
@@ -62,3 +62,5 @@ export { default as logout } from "../assets/logout.svg";
 
 export { default as browserHistory } from "../assets/history.svg";
 export { default as heartIcon } from "../assets/heartIcon.svg";
+
+export { default as showPassword } from "../assets/showPassword.svg";

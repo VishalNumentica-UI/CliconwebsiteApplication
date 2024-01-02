@@ -1,15 +1,13 @@
 import { Image } from "react-bootstrap";
 import "../CommonFunctionalities/CommonFunctionalities.css";
 
-
-interface FeatureProps{
-     image:string,
-     title:string,
-     description:string,
-
+interface FeatureProps {
+  image: string;
+  title: string;
+  description: string;
 }
 
-export function EachFeature({ feature }:{feature:FeatureProps}) {
+export function EachFeature({ feature }: { feature: FeatureProps }) {
   const { image, title, description } = feature;
   return (
     <div className="d-flex">

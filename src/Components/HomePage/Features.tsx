@@ -1,4 +1,3 @@
-
 import { Container } from "react-bootstrap";
 import {
   deliveryIcon,
@@ -36,7 +35,7 @@ export function Features() {
 
   return (
     <Container className="mt-3">
-      <div class="featureTab d-flex justify-content-between">
+      <div className="featureTab d-flex justify-content-between">
         {featuresDetails.map((createFeature) => {
           return <EachFeature feature={createFeature} />;
         })}

@@ -179,10 +179,7 @@ button[type="submit"] {
 	flex-wrap: wrap;
 	gap: 1rem;
 }
-.signInTab {
-	margin: auto;
-	width: 30%;
-}
+
 @media screen and (max-width:992px) {
 	.ProductItems {
 		grid-template-columns: repeat(3,1fr);
