@@ -1,5 +1,5 @@
 import { Container, Form, Image, InputGroup } from "react-bootstrap";
-import "../../Components/Authentication/authentication.css";
+import "../../Components/Login/authentication.css";
 import {
   appleSignInIcon,
   googleSignInIcon,
@@ -10,6 +10,7 @@ import { useState } from "react";
 import { account } from "../../appwriteConfig";
 import { useNavigate } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
+import { AuthenticationButton } from "../../CommonFunctionalities/AuthenticationButton";
 
 export function SignIn() {
   const navigate = useNavigate();
@@ -79,11 +80,7 @@ export function SignIn() {
             </InputGroup.Text>
           </InputGroup>
         </div>
-        <div className="d-grid gap-2 mt-3">
-          <button className="btn btn-primary " onClick={signUpUser}>
-            SIGN IN
-          </button>
-        </div>
+        <AuthenticationButton content={"SIGN IN"} />
         <div className="d-flex flex-column gap-2 mt-2">
           <div className="d-flex justify-content-center gap-5 p-1 login-sigin-background">
             <Image src={googleSignInIcon} alt="" />

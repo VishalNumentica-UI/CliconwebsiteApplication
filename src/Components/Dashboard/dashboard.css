@@ -1,0 +1,18 @@
+.accountSetting {
+  border: 0.1rem solid #E4E7E9;
+}
+
+.billingAddress {
+  border: 0.1rem solid #E4E7E9;
+}
+
+.button-color {
+  background-color: #FA8232;
+  color: #E4E7E9;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.paymentOption {
+  border: 0.1rem solid #E4E7E9;
+}/*# sourceMappingURL=dashboard.css.map */

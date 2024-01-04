@@ -64,3 +64,9 @@ export { default as browserHistory } from "../assets/history.svg";
 export { default as heartIcon } from "../assets/heartIcon.svg";
 
 export { default as showPassword } from "../assets/showPassword.svg";
+
+export { default as creditCard } from "../assets/creditCard.svg";
+export { default as amazon } from "../assets/amazon.svg";
+export { default as paypal } from "../assets/paypal.svg";
+export { default as cashOnDelivery } from "../assets/cashOnDelivery.svg";
+export { default as venmo } from "../assets/venmo.svg";

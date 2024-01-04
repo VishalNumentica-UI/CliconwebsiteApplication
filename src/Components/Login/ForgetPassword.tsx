@@ -1,6 +1,6 @@
 import { AuthenticationButton } from "../../CommonFunctionalities/AuthenticationButton";
 
-import "../../Components/Authentication/authentication.css";
+import "../../Components/Login/authentication.css";
 import { Container } from "react-bootstrap";
 export function ForgetPassword() {
   return (

@@ -1,6 +1,8 @@
+interface propsTypeCheck {
+  title?: string;
+}
 
-
-export function CheckBox(props) {
+export function CheckBox(props: propsTypeCheck) {
   return (
     <div>
       <div className="form-check">
@@ -10,9 +12,7 @@ export function CheckBox(props) {
           value=""
           id="defaultCheck1"
         />
-        <label className="form-check-label" >
-          {props.title}
-        </label>
+        <label className="form-check-label">{props?.title}</label>
       </div>
     </div>
   );

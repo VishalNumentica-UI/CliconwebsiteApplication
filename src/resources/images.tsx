@@ -1,21 +1,27 @@
-export {default as alexa} from './alexa.png'
-export {default as boltHeadset} from './boltHeadset.png'
-export {default as canonCamera} from './canonCamera.png'
-export {default as controller} from './controller.png'
-export {default as drone} from './drone.png'
-export {default as gadgets} from './gadgets.jpg'
-export {default as joystick} from './joystick.png'
-export {default as keyboard} from './Keyboard.png'
-export {default as mac} from './mac.png'
-export {default as macMonitor} from './macMonitor.png'
-export {default as news_image1} from './news_image1.png'
-export {default as news_image2} from './news_image2.png'
-export {default as news_image3} from './news_image3.png'
-export {default as playstation} from './playstation.png'
-export {default as playstation1} from './playstation1.png'
-export {default as poco} from './poco.png'
-export {default as realmeHeadset} from './realmeHeadset.png'
-export {default as sony} from './phone1.png'
-export {default as sonyTv} from './sonyTv.png'
-export {default as wifiCamera} from  './wifiCamera.png'
-export {default as wirelessHeadphone} from './wireless_headphone.png'
+export { default as alexa } from "./alexa.png";
+export { default as boltHeadset } from "./boltHeadset.png";
+export { default as canonCamera } from "./canonCamera.png";
+export { default as controller } from "./controller.png";
+export { default as drone } from "./drone.png";
+export { default as gadgets } from "./gadgets.jpg";
+export { default as joystick } from "./joystick.png";
+export { default as keyboard } from "./Keyboard.png";
+export { default as mac } from "./mac.png";
+export { default as macMonitor } from "./macMonitor.png";
+export { default as news_image1 } from "./news_image1.png";
+export { default as news_image2 } from "./news_image2.png";
+export { default as news_image3 } from "./news_image3.png";
+export { default as playstation } from "./playstation.png";
+export { default as playstation1 } from "./playstation1.png";
+export { default as poco } from "./poco.png";
+export { default as realmeHeadset } from "./realmeHeadset.png";
+export { default as sony } from "./phone1.png";
+export { default as sonyTv } from "./sonyTv.png";
+export { default as wifiCamera } from "./wifiCamera.png";
+export { default as wirelessHeadphone } from "./wireless_headphone.png";
+
+export { default as error } from "./error.png";
+export { default as backgroundAvator } from "./background_Avator.png";
+export { default as bitcoin } from "./bitcoin.png";
+export { default as robot } from "./robot.png";
+export { default as desk } from "./desk.png";
